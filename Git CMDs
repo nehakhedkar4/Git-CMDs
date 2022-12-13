@@ -1,0 +1,40 @@
+------------------INSTALL GIT ON LINUX------------------------
+        - sudo apt-get install git
+
+------------------TO SEE HIDDEN FILES------------------------
+        - ls -a
+
+------------------TO GIT STATUS------------------------
+        - git status
+
+------------------TO LIST ALL URL------------------------
+        - git remote -v
+
+------------------TO CREATE NEW BRANCH------------------------
+        - git branch branchName
+
+------------------TO GET INTO BRANCH------------------------
+        - git checkout branchName
+
+------------------TO CREATE A PULL REQUEST-------------------
+	- fork the Repo first
+	- git clone URL                # URL: git.com/Our_username/repo_name
+	- git init
+	- git branch new_branchName
+	- git checkout new_branchName
+	- Made Changes
+	- git add .
+	- git commit -m "msg"
+	- git push --set-upstream origin new_branchName 
+
+
+-----------------TO PUSH YOUR PROJECT LOCAL TO REMOTE---------------
+	- git init
+	- git remote add origin URL
+	- git commit -m"msg"
+	- git push origin branchName
+
+
+-----------------TO MERGE MASTER BRANCH CODE TO MAIN BRANCH------------
+        - git pull --rebase origin main
+        - git push origin main

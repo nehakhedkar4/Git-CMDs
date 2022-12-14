@@ -38,3 +38,9 @@
 -----------------TO MERGE MASTER BRANCH CODE TO MAIN BRANCH------------
         - git pull --rebase origin main
         - git push origin main
+	
+	
+-----------------TO CLONE SPECIFIC BRANCH------------------------------------
+	- git clone --branch <branchname> <remote-repo-url> OR
+	- git clone -b <branchname> <remote-repo-url>
+

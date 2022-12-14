@@ -30,9 +30,10 @@
 
 -----------------TO PUSH YOUR PROJECT LOCAL TO REMOTE---------------
 	- git init
+	- git add .
+	- git commit -m 'Initial Commit'
 	- git remote add origin URL
-	- git commit -m"msg"
-	- git push origin branchName
+	- git push origin main
 
 
 -----------------TO MERGE MASTER BRANCH CODE TO MAIN BRANCH------------
@@ -44,3 +45,11 @@
 	- git clone --branch <branchname> <remote-repo-url> OR
 	- git clone -b <branchname> <remote-repo-url>
 
+------------------TO UPLOAD PROJECT IN MAIN BRANCH---------------------------  # BCZ myproject always goes to on master branch insted of main
+	- Create empty Repo in Github
+	- git clone 
+	- git add .
+	- git commit -m "initial commit"
+	- git branch -M main
+	- git pull origin main --allow-unrelated
+	- git push -u origin main
